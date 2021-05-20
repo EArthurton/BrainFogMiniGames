@@ -42,6 +42,12 @@ public class MLevels : MonoBehaviour
         }
     }
 
+    public void AnswerScreen()
+    {
+        buttonClick.Play();
+        SceneManager.LoadScene("MAnswer");
+    }
+
     private void OnEnable()
     {
         nextButton.onClick.AddListener(AnswerScreen);
@@ -50,11 +56,5 @@ public class MLevels : MonoBehaviour
     private void OnDisable()
     {
         nextButton.onClick.RemoveListener(AnswerScreen);
-    }
-
-    public void AnswerScreen()
-    {
-        buttonClick.Play();
-        SceneManager.LoadScene("MAnswer");
     }
 }

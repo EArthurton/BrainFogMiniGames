@@ -265,11 +265,6 @@ public class SpawnShape : MonoBehaviour
             }
             else if(countDownTimer <= 0)
             {
-                if(Leaderboard.scores.Count < 5)
-                {
-                    Leaderboard.scores.Add(score);
-                }
-
                 SceneManager.LoadScene("Complete");
             }
         }

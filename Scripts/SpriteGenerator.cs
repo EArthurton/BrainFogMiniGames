@@ -23,12 +23,6 @@ public class SpriteGenerator : MonoBehaviour
         GenerateSprite();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void GenerateSprite()
     {
         randomIndex = Random.Range(0, cars.Length);

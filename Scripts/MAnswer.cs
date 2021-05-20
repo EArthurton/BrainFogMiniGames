@@ -110,6 +110,7 @@ public class MAnswer : MonoBehaviour
                 question.SetActive(false);
                 inputField.SetActive(false);
                 aButton.SetActive(false);
+                pause.SetActive(false);
 
                 gameOverText.text = string.Format("Game Over!");
 

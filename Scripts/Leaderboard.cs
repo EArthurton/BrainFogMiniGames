@@ -22,7 +22,10 @@ public class Leaderboard : MonoBehaviour
     {
         if (carScores.Count > 0)
         {
-            Debug.Log(carScores.Count);
+            foreach (var score in scores)
+            {
+                carsHiScore.text += score + "\n";
+            }
         }
         else
         {
@@ -31,7 +34,6 @@ public class Leaderboard : MonoBehaviour
 
         if (speedScores.Count > 0)
         {
-            //Debug.Log(scores.Count);
 
             foreach (var score in scores)
             {
