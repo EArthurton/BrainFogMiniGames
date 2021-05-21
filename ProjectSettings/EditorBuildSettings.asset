@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Welcome.unity
+    guid: 214f5a6ebc31b4441a2a5bff36631fa9
+  - enabled: 1
+    path: Assets/Scenes/Navigation.unity
+    guid: 9b8796165a15b9f44a2d8012fd956267
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: 5e8837cc691542341938965391f69d26
+  - enabled: 0
+    path: Assets/Scenes/Leaderboard.unity
+    guid: de7ce69abf4e9074da3119056a209867
+  - enabled: 1
+    path: Assets/Scenes/CInstructions.unity
+    guid: 818d96310736bf8418b475453945b8f5
+  - enabled: 1
+    path: Assets/Scenes/ConcentrationGame.unity
+    guid: 237889658f3f488458cb83fa1d72214f
+  - enabled: 1
+    path: Assets/Scenes/MInstructions.unity
+    guid: 3e7a5c58b60de0841a799f9fe83b0cfc
+  - enabled: 1
+    path: Assets/Scenes/MLevel1.unity
+    guid: ee689ceed35617848aca52385dc82a4e
+  - enabled: 1
+    path: Assets/Scenes/MLevel2.unity
+    guid: 1273362ada314f04e83873f91cadf613
+  - enabled: 1
+    path: Assets/Scenes/MLevel3.unity
+    guid: f837680bc4efeb44e91679603b414540
+  - enabled: 1
+    path: Assets/Scenes/MLevel4.unity
+    guid: 041c8d019fef17f4ca47d88b408c21f7
+  - enabled: 1
+    path: Assets/Scenes/MAnswer.unity
+    guid: 59ac04e902e4a53478864eae15dc12ed
+  - enabled: 1
+    path: Assets/Scenes/SInstructions.unity
+    guid: 705d2481c9491f44a9d513e2f84e5539
+  - enabled: 1
+    path: Assets/Scenes/SpeedGame.unity
+    guid: b46a2d9fbfb45a54fb472b3db61a689d
+  - enabled: 1
+    path: Assets/Scenes/Complete.unity
+    guid: ac83489ec6741df46a761692bdf0f668
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 411b5f21419d5b34c8ba547f0512849c,
+      type: 2}
