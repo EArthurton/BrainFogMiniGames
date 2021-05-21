@@ -14,18 +14,21 @@ public class Buttons : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        buttons = new GameObject[10];
+        buttons = new GameObject[4];
         buttons[0] = GameObject.Find("RoadTile (2)");
         buttons[1] = GameObject.Find("RoadTile (8)");
         buttons[2] = GameObject.Find("RoadTile (19)");
         buttons[3] = GameObject.Find("RoadTile (22)");
 
         sprites = new Sprite[5];
-        sprites[0] = Resources.Load<Sprite>("Sprites/roadTexture_06");
-        sprites[1] = Resources.Load<Sprite>("Sprites/roadTexture_07");
-        sprites[2] = Resources.Load<Sprite>("Sprites/roadTexture_13");
-        sprites[3] = Resources.Load<Sprite>("Sprites/roadTexture_18");
-        sprites[4] = Resources.Load<Sprite>("Sprites/roadTexture_19");
+        sprites[0] = Resources.Load<Sprite>("Sprites/Road/roadTexture_06");
+
+        Debug.Log(sprites[0]);
+
+        sprites[1] = Resources.Load<Sprite>("Sprites/Road/roadTexture_07");
+        sprites[2] = Resources.Load<Sprite>("Sprites/Road/roadTexture_13");
+        sprites[3] = Resources.Load<Sprite>("Sprites/Road/roadTexture_18");
+        sprites[4] = Resources.Load<Sprite>("Sprites/Road/roadTexture_19");
 
         buttons[0].GetComponent<Image>().sprite = sprites[4];
         buttons[1].GetComponent<Image>().sprite = sprites[2];

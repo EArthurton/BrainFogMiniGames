@@ -8,8 +8,8 @@ using UnityEngine.Events;
 public class CarMovement : MonoBehaviour
 {
     private GameObject corner, btn1, btn2, btn3, btn4, timer, scoreObject, pause, paused, cont, menu, cars, houses, roads;
-    public static GameObject[] firstCars, secondCars, thirdCars, fourthCars;
-    public Rigidbody2D[] firstCarsRB, secondCarsRB, thirdCarsRB, fourthCarsRB;
+    public GameObject[] firstCars, secondCars;
+    //public Rigidbody2D[] firstCarsRB, secondCarsRB;
     public static BoxCollider2D cornerCollider, btn1Collider, btn2Collider, btn3Collider, btn4Collider, blueCollider, greenCollider, orangeCollider, pinkCollider, purpleCollider;
     public static BoxCollider2D[] firstCarsColl, secondCarsColl, thirdCarsColl, fourthCarsColl;
     public Button pauseButton, contButton, menuButton;

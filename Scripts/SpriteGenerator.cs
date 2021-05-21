@@ -14,11 +14,11 @@ public class SpriteGenerator : MonoBehaviour
     {
         cars = new Sprite[5];
 
-        cars[0] = Resources.Load<Sprite>("Sprites/BlueCar");
-        cars[1] = Resources.Load<Sprite>("Sprites/GreenCar");
-        cars[2] = Resources.Load<Sprite>("Sprites/OrangeCar");
-        cars[3] = Resources.Load<Sprite>("Sprites/PinkCar");
-        cars[4] = Resources.Load<Sprite>("Sprites/PurpleCar");
+        cars[0] = Resources.Load<Sprite>("Sprites/Cars/BlueCar");
+        cars[1] = Resources.Load<Sprite>("Sprites/Cars/GreenCar");
+        cars[2] = Resources.Load<Sprite>("Sprites/Cars/OrangeCar");
+        cars[3] = Resources.Load<Sprite>("Sprites/Cars/PinkCar");
+        cars[4] = Resources.Load<Sprite>("Sprites/Cars/PurpleCar");
 
         GenerateSprite();
     }
